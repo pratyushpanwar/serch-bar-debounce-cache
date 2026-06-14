@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-box {
+  width: 300px;
+}
+.results-container {
+  border: 1px solid black;
+  margin: 5px auto;
+  width: 300px;
+  overflow-y: scroll;
+  height: 300px;
+}
+.items {
+  display: block;
+  text-align: left;
+  padding: 2px;
+}
+
+.items:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
